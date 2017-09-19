@@ -1,0 +1,35 @@
+{
+  "name": "meekee-bot",
+  "version": "1.1.0",
+  "description": "A diligent bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqworks/easy-peasy-bot-app.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Marion Kamoike-bouguet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aqworks/meekee-bot/issues"
+  },
+  "homepage": "https://github.com/aqworks/meekee-bot#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "^0.4.9",
+    "botkit-storage-mongo": "^1.0.4",
+    "express": "^4.14.0",
+    "googleapis": "^14.2.0",
+    "mongodb": "^2",
+    "time": "^0.11.4"
+  }
+}
